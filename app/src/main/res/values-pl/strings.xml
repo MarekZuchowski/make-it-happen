@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Ustawienia</string>
+    <string name="category">Kategoria</string>
+    <string name="description">Opis</string>
+    <string name="newTask">Nowe zadanie</string>
+    <string name="task_name">Tytuł</string>
+    <string name="completion_date">Data ukończenia</string>
+    <string name="completion_time">Czas ukończenia</string>
+    <string name="notification">Powiadomienie</string>
+    <string name="notifications">Powiadomienia</string>
+    <string name="showCompletedTasks">Pokaż ukończone zadania</string>
+    <string name="hideCompletedTasks">Ukryj ukończone zadania</string>
+    <string name="attachment">Załącznik</string>
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
+    <string name="update">Zapisz</string>
+    <string name="updateTask">Edytuj zadanie</string>
+    <string name="delete">Usuń</string>
+    <string name="search">Wyszukaj...</string>
+    <string name="noTasks">Brak zadań</string>
+    <string name="notificationsOption0">5 minut wcześniej</string>
+    <string name="notificationsOption1">15 minut wcześniej</string>
+    <string name="notificationsOption2">30 minut wcześniej</string>
+    <string name="notificationsOption3">1 godzina wcześniej</string>
+    <string name="notificationsOption4">1 dzień wcześniej</string>
+    <string name="defaultCategoryName">Moje zadania</string>
+    <string name="newCategory">Nowa kategoria</string>
+    <string name="categoryExists">Ta kategoria już istnieje!</string>
+    <string name="taskCategories">Kategorie zadań</string>
+    <string name="areYouSure">Czy na pewno?</string>
+    <string name="deleteCategoryDescription">Wszystkie zadania z kategorii zostaną usunięte.</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="editCategory">Edytuj kategorię</string>
+    <string name="allTasks">Wszystkie</string>
+    <string name="creationDate">Data utworzenia</string>
+    <string name="taskDetails">Szczegóły zadania</string>
+    <string name="deleteAllTasks">Usuń wszystkie zadania</string>
+    <string name="notificationsWillNotBeSent">Powiadomienia nie będą wysyłane!</string>
+</resources>

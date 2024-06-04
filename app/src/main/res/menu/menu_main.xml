@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.makeithappen.activities.main.MainActivity">
+
+    <item
+        android:id="@+id/showCompletedTasksAction"
+        android:title="@string/showCompletedTasks"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/deleteAllTasks"
+        android:title="@string/deleteAllTasks"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/categorySettings"
+        android:title="@string/taskCategories"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/notificationAction"
+        android:title="@string/notifications"
+        app:showAsAction="never" />
+
+</menu>

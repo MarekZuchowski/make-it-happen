@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name" translatable="false">Make It Happen</string>
+    <string name="action_settings">Settings</string>
+    <string name="showCompletedTasks">Show completed tasks</string>
+    <string name="hideCompletedTasks">Hide completed tasks</string>
+    <string name="search">Search…</string>
+    <string name="noTasks">No tasks</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+
+    <string name="newTask">New task</string>
+    <string name="task_name">Title</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="completion_date">Completion date</string>
+    <string name="completion_time">Completion time</string>
+    <string name="notification">Notification</string>
+    <string name="attachment">Attachment</string>
+
+    <string name="updateTask">Update task</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="notificationsOption0">5 minutes before</string>
+    <string name="notificationsOption1">15 minutes before</string>
+    <string name="notificationsOption2">30 minutes before</string>
+    <string name="notificationsOption3">1 hour before</string>
+    <string name="notificationsOption4">1 day before</string>
+    <string-array name="notificationOptions">
+        <item>@string/notificationsOption0</item>
+        <item>@string/notificationsOption1</item>
+        <item>@string/notificationsOption2</item>
+        <item>@string/notificationsOption3</item>
+        <item>@string/notificationsOption4</item>
+    </string-array>
+    <string name="defaultCategoryName">My tasks</string>
+    <string name="newCategory">New category</string>
+    <string name="categoryExists">This category already exists!</string>
+    <string name="taskCategories">Task categories</string>
+    <string name="areYouSure">Are you sure?</string>
+    <string name="deleteCategoryDescription">All tasks from category will be deleted.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="editCategory">Edit category</string>
+    <string name="allTasks">All tasks</string>
+    <string name="creationDate">Creation date</string>
+    <string name="taskDetails">Task details</string>
+    <string name="deleteAllTasks">Delete all tasks</string>
+    <string name="notificationsWillNotBeSent">"You need to grant permission if you want to receive notifications! "</string>
+
+    <string name="dateFormat" translatable="false">yyyy-MM-dd HH:mm</string>
+    <string name="displayedDateFormat" translatable="false">EEE, MMM d yyyy, HH:mm</string>
+
+</resources>

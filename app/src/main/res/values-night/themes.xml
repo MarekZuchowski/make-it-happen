@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MakeItHappen" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/_blue</item>
+        <item name="colorPrimaryVariant">@color/_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/_blue</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/background_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="Theme.MakeItHappen.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="popupMenuBackground">@drawable/popupmenu_background</item>
+    </style>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MakeItHappen"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.settings.CategorySettingsActivity"
+            android:exported="false"
+            android:label="@string/taskCategories"
+            android:parentActivityName=".activities.main.MainActivity"
+            android:theme="@style/Theme.MakeItHappen.NoActionBar" />
+
+        <receiver
+            android:name=".utils.TaskNotification"
+            android:enabled="true" />
+
+        <activity
+            android:name=".activities.UpdateTaskActivity"
+            android:exported="false"
+            android:label="@string/taskDetails"
+            android:parentActivityName=".activities.main.MainActivity"
+            android:theme="@style/Theme.MakeItHappen.NoActionBar" />
+        <activity
+            android:name=".activities.AddTaskActivity"
+            android:exported="false"
+            android:label="@string/newTask"
+            android:parentActivityName=".activities.main.MainActivity"
+            android:theme="@style/Theme.MakeItHappen.NoActionBar" />
+        <activity
+            android:name=".activities.main.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.MakeItHappen.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

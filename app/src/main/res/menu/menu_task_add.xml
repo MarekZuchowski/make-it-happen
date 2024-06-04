@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.makeithappen.activities.AddTaskActivity">
+
+    <item
+        android:id="@+id/attachFile"
+        android:icon="@drawable/btn_attach_file"
+        android:title="@string/attachment"
+        app:showAsAction="ifRoom" />
+
+</menu>
